@@ -38,12 +38,6 @@ eureka:
   instance:
     instance-id: microservicecloud-dept8001
     prefer-ip-address: true
-
-info:
-  app.name: sun-microservicecloud
-  company.name: com
-  build.artifactId: @project.artifactId@
-  build.version: @project.version@
   
   
 ---
@@ -81,9 +75,3 @@ eureka:
   instance:
     instance-id: microservicecloud-dept8001
     prefer-ip-address: true
-
-info:
-  app.name: sun-microservicecloud
-  company.name: com
-  build.artifactId: @project.artifactId@
-  build.version: @project.version@
